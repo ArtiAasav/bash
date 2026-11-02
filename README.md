@@ -43,7 +43,7 @@ mkdir -p "$kodukaust/backup"
 
 varunda() {
     kuupaev=$(date +"%Y%m%d_%H%M%S")
-    tar -czf "$kodukaust/backup/projekt_$kuupaev.tar.gz" "$kodukaust/projekt"
+    tar -cvf "$kodukaust/backup/projekt_$kuupaev.tar.gz" "$kodukaust/projekt"
 }
 varunda
 
